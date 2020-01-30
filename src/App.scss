@@ -1,0 +1,78 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: #F8F9FA;
+  min-height: 100vh;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  align-items: center;
+} 
+@media (prefers-color-scheme: dark) {
+  .wrapper {
+    background-color: #000;
+    color: #fff;
+  } 
+}
+.quote {
+  font-size: 0.9rem;
+  line-height: 20px;
+  color: #878E95;
+  padding: 0.4rem;
+}
+.greet {
+  font-size: 4rem;
+  line-height: 17px;
+  color: rgb(62, 63, 65);
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+  align-items: center;
+}
+
+.profile__pic {
+  padding-top: 6vh; 
+  width: 240px; 
+  height: 240px;
+} 
+.me {
+  color: rgb(62, 63, 65);
+}
+.intro {
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 0rem 0.9rem 0rem 0.9rem;
+  line-height: 20px;
+  max-width: 50vw;
+  color: #878E95;
+} 
+.uni {
+  font-size: 0.9rem;
+  text-align: center;
+  color: #878E95;
+} 
+.heading {
+  color: rgb(62, 63, 65);
+  font-size: 1.2rem;
+  max-width: 70vw;
+  text-align: center;
+  padding-top: 2rem;
+} 
+
+.text__body {
+  font-size: 0.7rem;
+  color: #878E95; 
+  max-width: 80vw;
+  text-align: center;
+}
+
+.cheeky {
+  font-size: 0.4rem;
+  color: #878E95; 
+  max-width: 80vw;
+  text-align: center;
+}
