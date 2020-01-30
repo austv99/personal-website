@@ -6,7 +6,7 @@ const MainContainer = (props) => {
     return (
        <div className="wrapper">
            <div className="body">
-                <img className="profile__pic" src={process.env.PUBLIC_URL + "assets/profile.png"} alt=""></img>
+                <img className="profile__pic" src={"assets/profile.png"} alt=""></img>
                 <h2 className="quote">coffee, code and 808s</h2>
                 <div className="greet">
                     <h1>Hey!</h1>
