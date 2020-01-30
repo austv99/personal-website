@@ -1,9 +1,10 @@
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
-import { rollIn } from 'react-animations';
+import { bounce, swing, jello, tada, rubberBand, shake, rollIn } from 'react-animations';
 
 const MainContainer = (props) => {
-    const bounceAnimation = keyframes `${rollIn}`;
+    const aniList = [bounce, swing, jello, tada, rubberBand, shake, rollIn, ]
+    const bounceAnimation = keyframes `${aniList[Math.floor(Math.random()*aniList.length)]}`;
     const BouncyDiv = styled.div `animation: 3s ${bounceAnimation};`;
     return (
        <div className="wrapper">

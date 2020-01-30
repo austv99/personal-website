@@ -11,9 +11,9 @@ function App() {
   return (
     <>
     <body className="container">
-    <Router>
-    <Route exact path="/" component={Main}/>
-    </Router>
+      <Router>
+      <Route exact path="/" component={Main}/>
+      </Router>
     </body>
     </>
   );
