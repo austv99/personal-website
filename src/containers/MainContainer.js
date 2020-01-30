@@ -9,7 +9,7 @@ const MainContainer = (props) => {
        <div className="wrapper">
            <div className="body">
                 <BouncyDiv>
-                    <img className="profile__pic" src="https://i.imgur.com/tfgxXtz.png" alt=""></img>
+                    <img className="profile__pic" src="assets/profile_s.png" alt=""></img>
                 </BouncyDiv>
                 <h2 className="quote">coffee, code and 808s</h2>
                 <div className="greet">
