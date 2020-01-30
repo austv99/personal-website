@@ -2,7 +2,7 @@ import React from 'react';
 // import logo from './logo.svg';
 import './App.scss';
 import Main from './containers/MainContainer';
-// import {BrowserRouter as Router, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
 import ReactGA from 'react-ga';
 
 function App() {
@@ -11,7 +11,9 @@ function App() {
   return (
     <>
     <body className="container">
-    <Main />
+    <Router>
+    <Route exact path="/" component={Main}/>
+    </Router>
     </body>
     </>
   );
