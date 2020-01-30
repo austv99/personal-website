@@ -1,12 +1,16 @@
 import React from 'react';
-
-
+import styled, { keyframes } from 'styled-components';
+import { rollIn } from 'react-animations';
 
 const MainContainer = (props) => {
+    const bounceAnimation = keyframes `${rollIn}`;
+    const BouncyDiv = styled.div `animation: 3s ${bounceAnimation};`;
     return (
        <div className="wrapper">
            <div className="body">
-                <img className="profile__pic" src={"assets/profile.png"} alt=""></img>
+                <BouncyDiv>
+                    <img className="profile__pic" src={"assets/profile.png"} alt=""></img>
+                </BouncyDiv>
                 <h2 className="quote">coffee, code and 808s</h2>
                 <div className="greet">
                     <h1>Hey!</h1>
