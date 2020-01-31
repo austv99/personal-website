@@ -1,9 +1,9 @@
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
-import { bounce, swing, jello, tada, rubberBand, shake, rollIn } from 'react-animations';
+import { bounce, swing, shake, rollIn } from 'react-animations';
 
 const MainContainer = (props) => {
-    const aniList = [swing, jello, tada, rubberBand, shake, rollIn, ]
+    const aniList = [swing, shake, rollIn]
     const randomAnimation = keyframes `${aniList[Math.floor(Math.random()*aniList.length)]}`;
     const AnimateImage = styled.div `animation: 3s ${randomAnimation};`;
     const greetingAnimation = keyframes `${bounce}`; 
