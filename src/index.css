@@ -21,3 +21,7 @@ body {
 .subheading {
   font-weight: 300;
 }
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato'), url(lato.woff) format('woff');
+}
