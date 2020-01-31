@@ -3,19 +3,23 @@ import styled, { keyframes } from 'styled-components';
 import { bounce, swing, jello, tada, rubberBand, shake, rollIn } from 'react-animations';
 
 const MainContainer = (props) => {
-    const aniList = [bounce, swing, jello, tada, rubberBand, shake, rollIn, ]
-    const bounceAnimation = keyframes `${aniList[Math.floor(Math.random()*aniList.length)]}`;
-    const BouncyDiv = styled.div `animation: 3s ${bounceAnimation};`;
+    const aniList = [swing, jello, tada, rubberBand, shake, rollIn, ]
+    const randomAnimation = keyframes `${aniList[Math.floor(Math.random()*aniList.length)]}`;
+    const AnimateImage = styled.div `animation: 3s ${randomAnimation};`;
+    const greetingAnimation = keyframes `${bounce}`; 
+    const AnimateGreeting = styled.div `animation: 2s ${greetingAnimation};`;
     return (
        <div className="wrapper">
            <div className="body">
-                <BouncyDiv>
+                <AnimateImage>
                     <img className="profile__pic" src="assets/profile_s.png" alt=""></img>
-                </BouncyDiv>
+                </AnimateImage>
                 <h2 className="quote">coffee, code and 808s</h2>
-                <div className="greet">
-                    <h1>Hey!</h1>
-                </div>
+                <AnimateGreeting>
+                    <div className="greet">
+                        <h1>Hey!</h1>
+                    </div>
+                </AnimateGreeting>
                 <h2 className="me">I'm Austin Vuong</h2>
                 <h2 className="uni">Penultimate Software Engineering @ UNSW</h2>
                 <h2 className="intro">An aspiring full stack engineer with a focus on front-end development currently.
