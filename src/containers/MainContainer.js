@@ -10,10 +10,10 @@ const MainContainer = (props) => {
     const AnimateGreeting = styled.div `animation: 2s ${greetingAnimation};`;
     return (
         <div className="wrapper">
-            <div className="socials">
+            {/* <div className="socials">
                 <a href="http://github.com/austv99"><img src="assets/github.svg" alt="" /></a>
                 <a href="http://www.linkedin.com/in/austin-vuong"><img src="assets/linkedin.svg" alt=""/></a>
-            </div>
+            </div> */}
                 <AnimateImage>
                     <img className="profile__pic" src="assets/profile_s.png" alt=""></img>
                 </AnimateImage>
