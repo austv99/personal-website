@@ -5,12 +5,15 @@ import { bounce, swing, shake, rollIn } from 'react-animations';
 const MainContainer = (props) => {
     const aniList = [swing, shake, rollIn]
     const randomAnimation = keyframes `${aniList[Math.floor(Math.random()*aniList.length)]}`;
-    const AnimateImage = styled.div `animation: 3s ${randomAnimation};`;
+    const AnimateImage = styled.div `animation: 2s ${randomAnimation};`;
     const greetingAnimation = keyframes `${bounce}`; 
     const AnimateGreeting = styled.div `animation: 2s ${greetingAnimation};`;
     return (
-       <div className="wrapper">
-           <div className="body">
+        <div className="wrapper">
+            <div className="socials">
+                <a href="http://github.com/austv99"><img src="assets/github.svg" alt="" /></a>
+                <a href="http://www.linkedin.com/in/austin-vuong"><img src="assets/linkedin.svg" alt=""/></a>
+            </div>
                 <AnimateImage>
                     <img className="profile__pic" src="assets/profile_s.png" alt=""></img>
                 </AnimateImage>
@@ -24,6 +27,7 @@ const MainContainer = (props) => {
                 <h2 className="uni">Penultimate Software Engineering @ UNSW</h2>
                 <h2 className="intro">An aspiring full stack engineer with a focus on front-end development currently.
                 When I’m not stuck in Visual Studio Code, I enjoy music and photography.</h2>
+                <div className="body">
                 <h2 className="heading">What am I busy with now?</h2>
                 <div className="text__body">
                     <h2>I’m working on a startup with some smart people. It's called <a href="http://papercutreceipts.com">Papercut Receipts!</a> </h2>
