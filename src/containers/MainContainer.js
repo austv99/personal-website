@@ -30,7 +30,7 @@ const MainContainer = (props) => {
                 <div className="body">
                 <h2 className="heading">What am I busy with now?</h2>
                 <div className="text__body">
-                    <h2>I’m working on a startup with some smart people. It's called <a href="http://papercutreceipts.com">Papercut Receipts!</a> </h2>
+                    <h2>I’m working on a startup with some smart people. It's called <a href="http://papercutreceipts.com">Papercut Receipts!</a> Get a sneak peek <a href="https://bit.ly/prprototype">here</a>! </h2>
                     <h2>Other than that, I’m in my penultimate year for Software Engineering @ UNSW with a Distinction average.</h2>
                     <h2>I also volunteer with KodeSkool where we strive to educate high school students with employable skills through our love for code.</h2>
                     <h2>Oh, and I dabble in photography. Still learning but we all start somewhere right?</h2>

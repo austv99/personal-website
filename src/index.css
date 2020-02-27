@@ -9,12 +9,12 @@ body {
   padding-bottom: 2rem;
   
 }
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   body {
     background: #000;
   }
 
-}
+} */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
