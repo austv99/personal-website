@@ -25,7 +25,7 @@ const MainContainer = (props) => {
                 </AnimateGreeting>
                 <h2 className="me">I'm Austin Vuong</h2>
                 <h2 className="uni">Penultimate Software Engineering @ UNSW</h2>
-                <h2 className="intro">An aspiring full stack engineer with a focus on front-end development currently.
+                <h2 className="intro">An aspiring full stack engineer.
                 When I’m not stuck in Visual Studio Code, I enjoy music and photography.</h2>
                 <div className="body">
                 <h2 className="heading">What am I busy with now?</h2>
