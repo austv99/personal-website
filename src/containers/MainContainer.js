@@ -30,22 +30,22 @@ const MainContainer = (props) => {
                 <div className="body">
                 <h2 className="heading">What am I busy with now?</h2>
                 <div className="text__body">
-                    <h2>I’m working on a startup with some smart people. It's called <a href="http://papercutreceipts.com">Papercut Receipts!</a> Get a sneak peek <a href="https://bit.ly/prprototype">here</a>! </h2>
+                    <h2>I'm currently an intern at Atlassian and having great fun!</h2>
                     <h2>Other than that, I’m in my penultimate year for Software Engineering @ UNSW with a Distinction average.</h2>
-                    <h2>I also volunteer with KodeSkool where we strive to educate high school students with employable skills through our love for code.</h2>
                     <h2>Oh, and I dabble in photography. Still learning but we all start somewhere right?</h2>
                 </div>
                 <h2 className="heading">What languages do you spea... I mean code in?</h2>
                 <div className="text__body">
-                    <h2>Loving React and Typescript currently.</h2>
+                    <h2>Loving React currently.</h2>
                     <h2>Java is great.</h2>
-                    <h2>Python and C too. Firebase is great!</h2>
+                    <h2>Python and C too.</h2>
                     <h2>I have a positive relation(ship) with PostgreSQL.</h2>
+                    <h2>I'm planning on trying out Electron and Swift too!</h2>
                 </div> 
-                <div className="cheeky">
+                {/* <div className="cheeky">
                     <h2>*yep I’ll show myself out after that one <span role="img" aria-labelledby="Door">🚪</span>*</h2>
                     <h2>ps. I speak English and a bit of Vietnamese.</h2>
-                </div>
+                </div> */}
                 <h2 className="heading">My <a href="http://github.com/austv99">github</a>!</h2> 
                 <div className="text__body">
                     <h2>I’m an eager individual who seeks to learn and, once I know what I’m doing, pass it on and teach!</h2>
@@ -59,9 +59,6 @@ const MainContainer = (props) => {
                 </div>
            </div>
         </div>
-    
-
-
     );
 }
 
