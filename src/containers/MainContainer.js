@@ -48,7 +48,6 @@ const MainContainer = (props) => {
                 <h2 className="heading">Contact me!</h2>
                 <div className="text__body">
                     <h2>Check out my <a href="http://www.linkedin.com/in/austin-vuong">linkedin</a>! Feel free to connect and start up a convo!</h2>
-                    <h2>Or if you’re after a more casual convo, I’m <a href="http://instagram.com/austv99">austv99</a> on most socials</h2>
                     <h2>Or if you’re more traditional, reach out to me through email at <a href="mailto:austin.vuong00@gmail.com">austin.vuong00@gmail.com</a></h2>
                 </div>
            </div>
