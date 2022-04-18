@@ -19,15 +19,14 @@ const MainContainer = (props) => {
                     </div>
                 </AnimateGreeting>
                 <h2 className="me">I'm Austin Vuong</h2>
-                <h2 className="uni">Final Year Software Engineering @ UNSW</h2>
-                <h2 className="intro">An aspiring front end software engineer.
-                When I’m not stuck in Visual Studio Code, I enjoy music and photography.</h2>
+                <h2 className="uni">Software Engineering Graduate (UNSW)</h2>
+                {/* <h2 className="intro">An aspiring  software engineer.
+                When I’m not stuck in Visual Studio Code, I enjoy music and photography.</h2> */}
                 <div className="body">
                 <h2 className="heading">What am I busy with now?</h2>
                 <div className="text__body">
-                    <h2>I've just finished interning at Atlassian and had great fun working there and learnt tons!</h2>
-                    <h2>Other than that, I’m in my final year for Software Engineering @ UNSW with a Distinction average.</h2>
-                    <h2>Oh, and I dabble in photography. Still learning but we all start somewhere right?</h2>
+                    <h2>I'm currently working at Commonwealth Bank as a Software Engineering Graduate.</h2>
+                    <h2>I've also just started bouldering in my free time!</h2>
                 </div>
                 <h2 className="heading">What languages do you spea... I mean code in?</h2>
                 <div className="text__body">
